@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { increment,decrement } from './actions';
-
+import User from './components/User'
 class App extends Component {
   render() {
     const { increment, decrement } = this.props;
@@ -13,6 +13,7 @@ class App extends Component {
           <button onClick={ () => increment() } className="btn btn-primary mr-2">Increase</button>
           <button onClick={ () => decrement() } className="btn btn-danger my-2">Decrease</button>
         </p>
+        <User />
       </div>
     );
   }
