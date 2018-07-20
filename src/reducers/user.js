@@ -1,4 +1,4 @@
-import { FETCH_USER_SUCCESS, FETCH_USER_REQUEST, FETCH_USER_FAILURE } from '../constants';
+// import { FETCH_USER_SUCCESS, FETCH_USER_REQUEST, FETCH_USER_FAILURE } from '../constants';
 import { LOAD_USER_FULFILLED, LOAD_USER_PENDING, LOAD_USER_REJECTED } from '../constants';
 const initialState = {
   isFetching: false,
